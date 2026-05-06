@@ -46,3 +46,15 @@ switch(myDay){
 console.log();
 
 alert(today);
+
+
+function coffeeTemplate(coffee){
+    let myReturn = "";
+
+    myReturn += `
+   <h2>HTML GOES HERE</h2>
+    `;
+
+    return myReturn;
+}
+
