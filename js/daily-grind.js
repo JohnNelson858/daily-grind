@@ -52,7 +52,11 @@ function coffeeTemplate(coffee){
     let myReturn = "";
 
     myReturn += `
-   <h2>HTML GOES HERE</h2>
+           <p>
+			<img src="images/${coffee.pic}" alt="${coffee.pic}" id="coffee">
+			<strong>Monday's Coffee Special:</strong> Monday's daily coffee special is <strong>Pumpkin Spice Latte</strong>, 
+			which makes us wish it was always Fall, as this is one of our top sellers!
+		</p>
     `;
 
     return myReturn;
